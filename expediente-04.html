@@ -6,14 +6,14 @@
 <title>04 · El peso de la evidencia</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;900&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
 <header class="topbar">
   <div class="brandwrap">
-    <span class="badge">SANTIAGO AGUILERA</span>
+    <a class="badge" href="perfil.html" title="Ver mi perfil">Santiago Aguilera <small>Ver perfil</small></a>
   </div>
   <nav class="topnav" id="topnav">
     <a href="index.html">Inicio</a>
@@ -23,6 +23,7 @@
     <a href="expediente-03.html">Expediente 03</a>
     <a href="expediente-04.html" class="active">Expediente 04</a>
     <a href="expediente-05.html">Expediente 05</a>
+    <a href="expediente-06.html">Expediente 06</a>
   </nav>
 </header>
 
@@ -31,97 +32,81 @@
 <div class="exp-head wrap-wide">
     <div class="bignum">04</div>
     <div>
-      <div class="exp-crumb">EXPEDIENTE 04 · PARTE 4 DE 5</div>
+      <div class="exp-crumb">Expediente 04, parte 4 de 6</div>
       <h1>Fuentes de investigación</h1>
       <p class="exp-lead">Las tres fuentes principales que estoy usando: un texto doctrinal, un discurso presidencial y un libro de historia académica.</p>
     </div>
   </div>
 
   <div class="exp-body wrap-wide">
-    <div class="exp-media">
+    <nav class="subnav" aria-label="En esta página"><a href="#kennan">Kennan</a><a href="#johnson">Gran Sociedad</a><a href="#logevall">Logevall</a><a href="#hallazgos">Hallazgos</a><a href="#datos">Datos clave</a></nav>
+        <div class="exp-media">
       <img src="https://commons.wikimedia.org/wiki/Special:FilePath/PentagonPapers.jpg?width=1400" alt="Documentación de época" onerror="this.parentElement.style.display='none'">
       <div class="cap">Documentación de época sobre la escalada en Vietnam.</div>
     </div>
 
     <div class="card-grid">
       <div class="fcard">
-        <div class="ftype">FUENTE PRIMARIA · 1947</div>
+        <div class="ftype">Fuente primaria, 1947</div>
         <h4>Kennan (1947)</h4>
         <p>George Kennan, "The Sources of Soviet Conduct", Foreign Affairs.</p>
       </div>
       <div class="fcard">
-        <div class="ftype">FUENTE PRIMARIA · 1964</div>
+        <div class="ftype">Fuente primaria, 1964</div>
         <h4>Discurso de la Gran Sociedad</h4>
         <p>Lyndon B. Johnson, Universidad de Michigan.</p>
       </div>
       <div class="fcard">
-        <div class="ftype">FUENTE ACADÉMICA · 1999</div>
+        <div class="ftype">Fuente académica, 1999</div>
         <h4>Logevall,Choosing War</h4>
         <p>Fredrik Logevall, Choosing War.</p>
       </div>
     </div>
 
-    <div class="rae-block">
+    <div class="rae-block" id="kennan">
       <h3>Kennan (1947)</h3>
+      <figure class="fig portrait left reveal">
+        <img src="https://commons.wikimedia.org/wiki/Special:FilePath/George_F._Kennan_1947.jpg?width=700" alt="George F. Kennan en 1947" loading="lazy" onerror="this.closest('figure').style.display='none'">
+        <figcaption>George F. Kennan, 1947, el año en que apareció "The Sources of Soviet Conduct". </figcaption>
+      </figure>
       <div class="flow" style="max-width:100%;">
         <p>George Kennan no firmó este artículo con su nombre. Lo publicó bajo el seudónimo "X" en julio de 1947, en la revista Foreign Affairs, porque su cargo en el Departamento de Estado le impedía publicar bajo su identidad real. Aun así, el texto terminó siendo uno de los documentos más influyentes de la Guerra Fría: fue la base intelectual de la doctrina de contención, la misma que Estados Unidos invocaría veinte años después para justificar su escalada en Vietnam.</p>
+        <details class="more"><summary>Seguir leyendo el análisis</summary>
         <p>La tesis de Kennan es que el comportamiento soviético no respondía a un cálculo racional de intereses, sino a una combinación de ideología marxista-leninista y una inseguridad histórica rusa profundamente arraigada. Según él, el Kremlin veía al mundo exterior como una amenaza permanente, lo que hacía inútil cualquier intento de apaciguamiento diplomático convencional. Por eso propuso lo que él mismo describió como una contención paciente, firme y vigilante de las tendencias expansivas rusas: aplicar contrapresión en los puntos geográficos y políticos donde la URSS intentara avanzar, sin necesidad de una guerra directa. Su apuesta de fondo era que, sostenida en el tiempo, esa presión terminaría por hacer madurar o quebrar al sistema soviético desde adentro, por sus propias contradicciones internas.</p>
-        <p>Lo interesante para mi investigación es que Kennan nunca pidió intervención militar directa en todos los frentes. Su contención era selectiva y paciente, pensada para desgastar al adversario en los puntos verdaderamente vitales, no para convertirse en guerra abierta en cualquier territorio donde apareciera una insurgencia comunista. Eso es exactamente lo que la escalada en Vietnam entre 1964 y 1965 no fue: ahí no hubo paciencia ni contrapresión selectiva, sino bombardeo sostenido y más de 180.000 soldados en menos de un año. El propio Kennan, años después, terminó criticando el uso que se le dio a sus ideas en Vietnam, al considerar que ese país nunca fue el tipo de punto geográfico realmente vital que él tenía en mente al escribir el artículo.</p>
+        <p>Lo interesante para mi investigación es que Kennan nunca pidió intervención militar directa en todos los frentes. Su contención era selectiva y paciente, pensada para desgastar al adversario en los puntos verdaderamente vitales, no para convertirse en guerra abierta en cualquier territorio donde apareciera una insurgencia comunista. Eso es exactamente lo que la escalada en Vietnam entre 1964 y 1965 no fue: ahí no hubo paciencia ni contrapresión selectiva, sino bombardeo sostenido y más de 180.000 soldados en menos de un año. El propio Kennan, años después, terminó criticando el uso que se le dio a sus ideas en Vietnam, al considerar que ese país nunca fue el tipo de punto geográfico realmente vital que él tenía en mente al escribir el artículo.</p></details>
       </div>
     </div>
 
-    <div class="rae-block">
+    <div class="rae-block" id="johnson">
       <h3>Discurso de la Gran Sociedad (1964)</h3>
       <div class="flow" style="max-width:100%;">
         <p>El 22 de mayo de 1964, Lyndon Johnson llegó al estadio de la Universidad de Michigan y pronunció uno de los discursos más ambiciosos de su presidencia. Hablaba de pobreza, educación, ciudades y medio ambiente. Ese mismo día, ante unas 85.000 personas, lanzó el nombre que definiría su gobierno: la Gran Sociedad.</p>
+        <details class="more"><summary>Seguir leyendo el análisis</summary>
         <p>El discurso no es sobre política exterior. Es la manera en que Jhonson queria terminar con la pobreza y la injusticia racial, reconstruir las ciudades, proteger los recursos naturales, invertir en educación pública. En los meses y años siguientes, esa visión se tradujo en decenas de leyes que redujeron la pobreza en Estados Unidos más rápido que en cualquier otro período del siglo.</p>
-        <p>Esta fuente es clave dentro de la investigacion ya que no muestra todo lo que las fuentes teoricas no muesttran: la magnitud de lo que Johnson tenía que proteger políticamente. Un presidente que acababa de prometer la reforma social más ambiciosa desde el New Deal no podía darse el lujo de pedirle al Congreso una declaración formal de guerra, movilizar reservistas o subir impuestos para financiar un conflicto en Asia,cualquiera de esas decisiones habría puesto en riesgo el capital político que necesitaba para su agenda. Esa tensión entre la Gran Sociedad y la guerra quedó registrada más tarde en una idea que circuló por mucho tiepo: que uno de los mayores costos de la guerra de Vietnam fue la propia Gran Sociedad, que terminó perdiendo recursos y atención política frente a la escalada militar.</p>
+        <p>Esta fuente es clave dentro de la investigacion ya que no muestra todo lo que las fuentes teoricas no muesttran: la magnitud de lo que Johnson tenía que proteger políticamente. Un presidente que acababa de prometer la reforma social más ambiciosa desde el New Deal no podía darse el lujo de pedirle al Congreso una declaración formal de guerra, movilizar reservistas o subir impuestos para financiar un conflicto en Asia,cualquiera de esas decisiones habría puesto en riesgo el capital político que necesitaba para su agenda. Esa tensión entre la Gran Sociedad y la guerra quedó registrada más tarde en una idea que circuló por mucho tiepo: que uno de los mayores costos de la guerra de Vietnam fue la propia Gran Sociedad, que terminó perdiendo recursos y atención política frente a la escalada militar.</p></details>
       </div>
     </div>
 
-    <div class="rae-block">
+    <div class="rae-block" id="logevall">
       <h3>Logevall,Choosing War (1999)</h3>
       <div class="flow" style="max-width:100%;">
         <p>Fredrik Logevall no pregunta si Vietnam se pudo ganar. Pregunta si la guerra se pudo evitar. Choosing War, publicado en 1999, reconstruye día por día las decisiones que tomó la administración Johnson entre 1963 y 1965, y su conclusión es incómoda: la escalada no fue inevitable. Hubo momentos concretos como negociaciones posibles, salidas diplomáticas sobre la mesa, voces dentro del propio gobierno que proponían alternativas,pero estados unidos en vez de escuchar decidio atacar.</p>
+        <details class="more"><summary>Seguir leyendo el análisis</summary>
         <p>Esto es lo que separa a Logevall de una historia oficial o de un manual de política exterior: no describe la Guerra Fría como una fuerza que arrastró a Estados Unidos hacia Vietnam sin remedio. La describe como una serie de decisiones humanas, tomadas por personas concretas que "evaluaron" opciones y eligieron la escalada, muchas veces por razones de política interna y de credibilidad internacional más que por un análisis frío de lo que convenía en el terreno vietnamita.</p>
-        <p>El libro es particularmente útil para este expediente porque documenta el papel de otros gobiernos y actores internacionales por ejemplo Francia y muchos otros que ofrecieron vías de negociación que Washington descartó. Eso refuerza directamente uno de los pilares de mi tesis: que existían alternativas a la escalada y que fueron dejadas de lado, no por falta de opciones, sino por una lectura ideológica de lo que estaba en juego. Logevall no niega que hubiera un cálculo estratégico real detrás de la contención; lo que cuestiona es que ese cálculo exigiera, de forma necesaria, la escala de intervención que Johnson terminó eligiendo.</p>
+        <p>El libro es particularmente útil para este expediente porque documenta el papel de otros gobiernos y actores internacionales por ejemplo Francia y muchos otros que ofrecieron vías de negociación que Washington descartó. Eso refuerza directamente uno de los pilares de mi tesis: que existían alternativas a la escalada y que fueron dejadas de lado, no por falta de opciones, sino por una lectura ideológica de lo que estaba en juego. Logevall no niega que hubiera un cálculo estratégico real detrás de la contención; lo que cuestiona es que ese cálculo exigiera, de forma necesaria, la escala de intervención que Johnson terminó eligiendo.</p></details>
       </div>
     </div>
 
-    <div class="flow-label">Hallazgos</div>
+    <div class="flow-label" id="hallazgos">Hallazgos</div>
     <div class="flow" style="max-width:100%;">
       <p>Poniendo las tres fuentes una al lado de la otra, ninguna respalda sin matices la versión pública de que la escalada fue una respuesta militar necesaria e inevitable. Hay una distancia consistente entre la doctrina original de Kennan y lo que realmente se hizo en 1965: bombardeo sostenido y más de 180.000 soldados en el terreno. Esa distancia no es un detalle menor: es evidencia de que la ideología se usó para justificar algo más grande de lo que ella misma pedía.</p>
       <p>También queda claro que la escalada no respondió solo a una lógica de Guerra Fría. El discurso de la Gran Sociedad muestra que Johnson tenía un enorme capital político propio que proteger, lo que ayuda a explicar por qué la guerra se libró de forma rapida y nunca se declaró formalmente. Y Logevall documenta que hubo alternativas diplomáticas reales sobre la mesa  que Estados Unidos decidio no tomar. Eso quita fuerza a cualquier argumento de que "no había opción".</p>
     </div>
 
-    <div class="flow-label">Contradicciones</div>
-    <div class="flow" style="max-width:100%;">
-      <ul>
-        <li><b>Doctrina contra aplicación —</b> Kennan pedía presión selectiva en los puntos verdaderamente vitales; Vietnam recibió una guerra sostenida y total, algo que el propio Kennan terminó cuestionando años después.</li>
-        <li><b>Discurso público contra prioridad real —</b> Johnson prometía en público la reforma social más ambiciosa desde el New Deal, mientras en privado la escalada militar competía por los mismos recursos que esa reforma necesitaba.</li>
-        <li><b>Justificación contra decisión —</b> la razón pública para escalar era contener el comunismo; lo que documenta Logevall es que buena parte de las decisiones respondieron más a cálculos de credibilidad política que a un análisis frío de la situación en Vietnam.</li>
-      </ul>
-    </div>
-
-    <div class="flow-label">Datos clave</div>
-    <div class="flow" style="max-width:100%;">
-      <ul>
-        <li><b>1947 —</b> Kennan publica el artículo "X", origen doctrinal de la contención.</li>
-        <li><b>22 de mayo de 1964 —</b> discurso de la Gran Sociedad en la Universidad de Michigan.</li>
-        <li><b>7 de agosto de 1964 —</b> Resolución del Golfo de Tonkín, aprobada casi por unanimidad (416-0 en la Cámara, 88-2 en el Senado).</li>
-        <li><b>Marzo de 1965 —</b> inicio de la Operación Rolling Thunder y desembarco de tropas de combate en Da Nang.</li>
-        <li><b>Fines de 1965 —</b> más de 180.000 soldados estadounidenses ya desplegados en Vietnam.</li>
-      </ul>
-    </div>
+    <div class="flow-label" id="datos">Datos clave</div>
+    <div class="card-grid three"><div class="fcard"><div class="ftype">1947</div><p>Kennan publica el artículo "X", origen doctrinal de la contención.</p></div><div class="fcard"><div class="ftype">22 de mayo de 1964</div><p>discurso de la Gran Sociedad en la Universidad de Michigan.</p></div><div class="fcard"><div class="ftype">7 de agosto de 1964</div><p>Resolución del Golfo de Tonkín, aprobada casi por unanimidad (416-0 en la Cámara, 88-2 en el Senado).</p></div><div class="fcard"><div class="ftype">Marzo de 1965</div><p>inicio de la Operación Rolling Thunder y desembarco de tropas de combate en Da Nang.</p></div><div class="fcard"><div class="ftype">Fines de 1965</div><p>más de 180.000 soldados estadounidenses ya desplegados en Vietnam.</p></div></div>
   </div>
 
-  <div class="glossary-preview wrap-wide">
-    <div class="index-head"><h2>Términos relevantes</h2></div>
-    <div class="gterm-grid">
-      <div class="gterm"><h4>Fuente primaria</h4><p>Documento producido en el momento mismo del hecho.</p></div>
-      <div class="gterm"><h4>Triangulación</h4><p>Contrastar distintos tipos de evidencia para reducir sesgos.</p></div>
-    </div>
-  </div>
 
   <div class="exp-pager wrap-wide">
     <a class="pager-link" onclick="location.href='expediente-03.html'" style="cursor:pointer;"><div class="plabel">← ANTERIOR</div><div class="ptitle">03 · Perspectiva teórica</div></a>
